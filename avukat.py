@@ -1,6 +1,5 @@
 import streamlit as st
-import pandas as pd
-import plotly.express as px
+from datetime import datetime
 from datetime import datetime
 
 # --- PROFESYONEL SAYFA YAPISI ---
@@ -83,4 +82,5 @@ elif menu == "📝 Akıllı Dilekçe Yazıcı":
         Av. Merve Doğan
         """
         st.markdown(f'<div class="dilekce-kutu">{dilekce_icerik.replace("\n", "<br>")}</div>', unsafe_allow_html=True)
+
         st.download_button("📥 Taslağı İndir (.txt)", dilekce_icerik, file_name=f"dilekce_{muvekkil}.txt")
