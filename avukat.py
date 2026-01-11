@@ -1,5 +1,5 @@
 import streamlit as st
-from datetime import datetime
+import pandas as pd
 from datetime import datetime
 
 # --- PROFESYONEL SAYFA YAPISI ---
@@ -84,3 +84,4 @@ elif menu == "📝 Akıllı Dilekçe Yazıcı":
         st.markdown(f'<div class="dilekce-kutu">{dilekce_icerik.replace("\n", "<br>")}</div>', unsafe_allow_html=True)
 
         st.download_button("📥 Taslağı İndir (.txt)", dilekce_icerik, file_name=f"dilekce_{muvekkil}.txt")
+
