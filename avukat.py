@@ -17,7 +17,7 @@ st.markdown("""
 # --- YAN PANEL ---
 with st.sidebar:
     st.title("⚖️ JurisAI v2.0")
-    st.info("**Lisans Sahibi: Av. Merve Doğan**")
+    st.info("**Lisans Sahibi: Merve Kılıç**")
     menu = st.sidebar.radio("İşlem Seçiniz:", ["📊 Dava Analiz Merkezi", "📝 Akıllı Dilekçe Yazıcı"])
     st.markdown("---")
     st.write("© 2026 Hukuk Teknolojileri")
@@ -61,3 +61,4 @@ else:
             <p align='right'><b>Av. Merve Doğan</b></p>
         </div>
         """, unsafe_allow_html=True)
+
