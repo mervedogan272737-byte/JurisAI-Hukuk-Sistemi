@@ -58,7 +58,8 @@ else:
             <p><b>Sayın Hakimlik Makamına / Muhataba,</b></p>
             <p>{taraf_ad} vekili olarak aşağıda belirtilen hususların arzını talep ederiz...</p>
             <hr>
-            <p align='right'><b>Av. Merve Doğan</b></p>
+            <p align='right'><b>Merve Kılıç</b></p>
         </div>
         """, unsafe_allow_html=True)
+
 
